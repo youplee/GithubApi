@@ -117,11 +117,11 @@
                                     <td>
                                         <a v-if="result.favorite"  href="#"  
                                         v-on:click.prevent="retraitFavori(result)">
-                                            <i data-uk-tooltip="{pos:'top'}" title="Statut Activé" style="color:red;" class="material-icons">favorite</i>
+                                            <i data-uk-tooltip="{pos:'top'}" title="Remove from favorite" style="color:red;" class="material-icons">favorite</i>
                                         </a>  
                                         <a v-if="result.favorite == 0" href="#"         
                                         v-on:click.prevent="ajoutFavori(result)">
-                                            <i data-uk-tooltip="{pos:'top'}" title="Statut Desactivé" style="color:green;"  class="material-icons">favorite</i>
+                                            <i data-uk-tooltip="{pos:'top'}" title="Add to favorite" style="color:green;"  class="material-icons">favorite</i>
                                         </a>
                                     </td>
                                 </tr>
