@@ -14,6 +14,7 @@ use Auth;
 
 class SearchController extends Controller
 {
+	//fonction qui traite la recherche avec l api github
 	public function searchGithub(Request $request){
 
 		$keyword 				= $request->get('keyword');
@@ -36,6 +37,7 @@ class SearchController extends Controller
 
 		foreach($items as $item){
 
+// j ai commenter cette partie par ce que nombre requete est petit ce qui bloque l application
 			// $languageInfo = $this->getLanguage($item['repository']['languages_url']);
 			// $dataLanguages = [];
 
@@ -67,6 +69,7 @@ class SearchController extends Controller
 		return $data;
 	}
 
+//fonction qui recupere les languages 
 	public function getLanguage($url){
 
         $client  		 = new \GuzzleHttp\Client();

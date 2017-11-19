@@ -22,67 +22,6 @@
                                         <i class="fa fa-flag fa-stack-1x fa-twitter fa-inverse"></i>
                                     </span>
                                 </div>
-                                &nbsp;&nbsp;
-                                <br/>
-                                <div class="panel panel-widget panel-default">
-                                    <div class="panel-heading">
-                                        <span class="panel-title"> <i class="icon-chart icons"></i> Project Status<i
-                                                class="icon-settings icons pull-right"></i></span>
-                                    </div>
-                                    <div class="panel-body profile_status">
-                                        <div>
-                                            <p>
-                                                <strong>Admin Template</strong>
-                                                <small class="pull-right text-muted">
-                                                    40% Complete
-                                                </small>
-                                            </p>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar progress-bar-success" role="progressbar"
-                                                     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-                                                     style="width: 40%">
-                                                        <span class="sr-only">
-                                                    40% Complete (success)
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <p>
-                                                <strong>Wordpress Theme</strong>
-                                                <small class="pull-right text-muted">
-                                                    60% Complete
-                                                </small>
-                                            </p>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar progress-bar-warning" role="progressbar"
-                                                     aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                                     style="width: 60%">
-                                                        <span class="sr-only">
-                                                    60% Complete (warning)
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <p>
-                                                <strong>Laravel Project</strong>
-                                                <small class="pull-right text-muted">
-                                                    80% Complete
-                                                </small>
-                                            </p>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar progress-bar-info" role="progressbar"
-                                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                                     style="width: 80%">
-                                                        <span class="sr-only">
-                                                    80% Complete (info)
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="row">

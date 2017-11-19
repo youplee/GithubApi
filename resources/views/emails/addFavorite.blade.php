@@ -59,7 +59,7 @@
 			<tr>
 				<td width="5%"></td>
 				<td width="95%">
-					<p>Vous venez d'ajouter dans la categorie <strong>{{$catalogue->recherche->libelle}}</strong> ce repertoire a votre liste de favoris:
+					<p>Vous venez d'ajouter dans la categorie <strong>{{$catalogue->recherche->libelle}}</strong> ce répertoire à votre liste de favoris:
 						{{$shortUrl}}</p>
 				</td>
 			</tr>
