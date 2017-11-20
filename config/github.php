@@ -41,7 +41,8 @@ return [
     'connections' => [
 
         'main' => [
-            'token'      => '37f56e8dbe7ddb9b3ac275ea308af7518da906d3',
+        // il faut generer le token depuis le compte github et le mettre ici
+            'token'      => '6a4ac4c0cc2055ad38fc947f5cc76df20be27a28',
             'method'     => 'token',
             // 'backoff'    => false,
             // 'cache'      => false,
