@@ -18,16 +18,23 @@ Auth::routes();
 
 
 Route::group([ 'middleware' => ['verify']], function () {
+    //traitement page d acceuil
     Route::get('/home', 'HomeController@index');
-    Route::resource('user','UserController');
-    Route::resource('profil','ProfilController');
+    // traitement recherche github api
     Route::post('searchgithub', 'SearchController@searchGithub');
+    // chargement donnee de la page d acceuil
     Route::get('loadData', 'LanguageController@loadData');
+    // chargement donnee profil
     Route::get('/loadProfil', 'UserController@loadProfil');
+    // ajout favoris
     Route::post('ajoutFavori', 'CatalogueController@ajoutFavori');
+    // envoi d email apres l ajout d un favoris
     Route::post('sendEmailFavori', 'CatalogueController@sendEmailFavori');
+    // suppression d un favoris depuis la page d acceuil
     Route::post('retraitFavori', 'CatalogueController@retraitFavori');
+    // l envoie d un email apres la suppression d un favoris
     Route::post('sendEmailRetraitFavori', 'CatalogueController@sendEmailRetraitFavori');
+    // suppression d un favoris depuis la page profil
    Route::post('retraitFavoriFromProfil', 'CatalogueController@retraitFavoriFromProfil');
 });
 
