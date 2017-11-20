@@ -50,7 +50,7 @@
                                                             </td>
                                                             <td>
                                         <a href="#" v-on:click.prevent="retraitFavori(favorite)">
-                                            <i data-uk-tooltip="{pos:'top'}" title="Statut Activé" style="color:red;" class="material-icons">favorite</i>
+                                            <i data-uk-tooltip="{pos:'top'}" title="Remove from favorite" style="color:red;" class="material-icons">favorite</i>
                                         </a>  
                                                             </td>
                                                         </tr>
