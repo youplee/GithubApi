@@ -136,7 +136,7 @@ Vue.component('Multiselect', VueMultiselect.default);
 
                     if(response){
 
-                        swal("Succes!", "Recherche", "success");
+                        swal("Succes!", "", "success");
                         this.load();
                     this.sendEmailRetraitFavori();
 
