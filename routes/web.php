@@ -36,6 +36,8 @@ Route::group([ 'middleware' => ['verify']], function () {
     Route::post('sendEmailRetraitFavori', 'CatalogueController@sendEmailRetraitFavori');
     // suppression d un favoris depuis la page profil
    Route::post('retraitFavoriFromProfil', 'CatalogueController@retraitFavoriFromProfil');
+   // affichage profil
+    Route::resource('profil','ProfilController');
 });
 
 Route::get('/logout','Auth\LoginController@logout');
