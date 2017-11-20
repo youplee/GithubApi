@@ -14,6 +14,7 @@
     <!-- <link href="{{asset('assets/vendors/bootstrapvalidator/css/bootstrapValidator.min.css')}}" rel="stylesheet"/> -->
     <link href="{{asset('assets/css/login.css')}}" rel="stylesheet">
     <!--end page level css-->
+    <script src="https://use.fontawesome.com/e8c765c6d1.js"></script>
 </head>
 
 <body id="sign-in">
@@ -25,7 +26,7 @@
         <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 login-form">
             <div class="panel-header">
                 <h2 class="text-center">
-                    <img src="{{asset('assets/img/logo_ecg.png')}}" width="250px" height="105px" alt="Logo">
+                    <img src="{{asset('assets/img/logo_nxt.png')}}" width="250px" height="105px" alt="Logo">
                 </h2>
             </div>
             <div class="panel-body">

@@ -2,7 +2,7 @@
  <nav class="navbar navbar-static-top" role="navigation">
         <a href="{{url ('/')}}" class="logo">
             <!-- Add the class icon to your logo image or logo icon to add the marginin -->
-            <img src="{{asset('assets/img/logo_ecg.png')}}" width="100px" height="35px" alt="logo"/>
+            <img src="{{asset('assets/img/logo_nxt.png')}}" width="100px" height="35px" alt="logo"/>
             <!-- <h3>Belair CRM</h3> -->
         </a>
         <!-- Header Navbar: style can be found in header-->

@@ -1,4 +1,4 @@
-    <div id="menu" role="navigation">
+        <div id="menu" role="navigation">
         <div class="nav_profile">
             <div class="media profile-left">
                 <a class="pull-left profile-thumb" href="#">

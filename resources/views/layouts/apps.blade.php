@@ -39,10 +39,8 @@
     <link href="{{asset('assets/vendors/iCheck/css/all.css')}}" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/custom.css')}}">
 
+<script src="https://use.fontawesome.com/e8c765c6d1.js"></script>
 
-  <link href="{{ asset('assets/vuetify/css/styles.css') }}" rel="stylesheet" type="text/css">
-  <link rel="icon" type="{{ asset('assets/vuetify/images/image/png') }}" href="favicon-32x32.png" sizes="32x32">
-  <script src="{{ asset('assets/vuetify/js/vuetify.min.js') }}"></script>
 
     <!-- end add new user-->
     <!--end of page level css-->
