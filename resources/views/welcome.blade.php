@@ -61,7 +61,7 @@
                                     :selected="selectedOrder"
                                     :options="orders"
                                     :multiple="false"
-                                    placeholder="Jour du prelevement"
+                                    placeholder="Choose your order"
                                     @update="updateSelectedOrder">
                                     </multiselect>
                             </div>
@@ -73,7 +73,7 @@
                                     :selected="selectedSort"
                                     :options="sorts"
                                     :multiple="false"
-                                    placeholder="Jour du prelevement"
+                                    placeholder="Choose your Sort"
                                     @update="updateSelectedSort">
                                     </multiselect>
                             </div>
