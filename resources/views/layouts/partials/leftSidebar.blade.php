@@ -8,7 +8,7 @@
                     <ul class="icon-list">
                         <li>
                             <a href="{{ url('/profil') }}">
-                                <i class="fa fa-user" aria-hidden="true">
+                                <i class="fa fa-user" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li>

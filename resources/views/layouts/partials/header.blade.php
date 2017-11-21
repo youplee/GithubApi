@@ -33,7 +33,7 @@
                             <p> {{ucfirst(Auth::user()->nom)}}  {{ucfirst(Auth::user()->prenom)}}</p>
                         </li>
                         <!-- Menu Body -->
-                        <li class="p-t-3"><a href="{{ url('/profil') }}"> <i class="fa fa-user" aria-hidden="true"></i>My Profile </a>
+                        <li class=""><a href="{{ url('/profil') }}"><i class="fa fa-user" aria-hidden="true"></i>My Profile </a>
                         </li>
                         <li role="presentation"></li>
                         <li role="presentation" class="divider"></li>
