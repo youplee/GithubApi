@@ -42,7 +42,7 @@ return [
 
         'main' => [
         // il faut generer le token depuis le compte github et le mettre ici
-            'token'      => '5c3a3b002a78e472bcda233de5b826a839d5c58a',
+            'token'      => 'ff1b2fd05d075554dcaed64afcadd36b59b2205c',
             'method'     => 'token',
             // 'backoff'    => false,
             // 'cache'      => false,
