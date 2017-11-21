@@ -33,7 +33,7 @@
                             <p> {{ucfirst(Auth::user()->nom)}}  {{ucfirst(Auth::user()->prenom)}}</p>
                         </li>
                         <!-- Menu Body -->
-                        <li class="p-t-3"><a href="{{ url('/profil') }}"> <i class="fa fa-fw ti-user"></i> My Profile </a>
+                        <li class="p-t-3"><a href="{{ url('/profil') }}"> <i class="fa fa-user" aria-hidden="true"></i>My Profile </a>
                         </li>
                         <li role="presentation"></li>
                         <li role="presentation" class="divider"></li>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="pull-right">
                                 <a href="{{ url('/logout') }}">
-                                    <i class="fa fa-fw ti-shift-right"></i>
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
                                     Logout
                                 </a>
                             </div>

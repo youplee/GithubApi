@@ -11,7 +11,7 @@
             <div class="header-object">
                 <span class="option-search pull-right hidden-xs">
                     <span class="search-wrapper">
-                        <input type="text" placeholder="Search here"><i class="ti-search"></i>
+                        <input type="text" placeholder="Search here"><i class="fa fa-search" aria-hidden="true"></i>
                     </span>
                 </span>
             </div>

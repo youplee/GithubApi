@@ -8,12 +8,12 @@
                     <ul class="icon-list">
                         <li>
                             <a href="{{ url('/profil') }}">
-                                <i class="fa fa-fw ti-user"></i>
+                                <i class="fa fa-user" aria-hidden="true">
                             </a>
                         </li>
                         <li>
                             <a href="{{ url('/logout') }}">
-                                <i class="fa fa-fw ti-shift-right"></i>
+                                <i class="fa fa-sign-out" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>
