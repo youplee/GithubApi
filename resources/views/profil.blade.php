@@ -71,7 +71,6 @@
 <script src="{{asset('js/vue.js') }}"></script>
 <script src="{{asset('js/axios.min.js') }}"></script>
 <script src="{{asset('js/vue-resource.min.js') }}"></script>
-<script src="{{asset('js/vue-table.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/vue.multiselect/1.1.4/vue-multiselect.min.js"></script>
@@ -154,7 +153,7 @@ Vue.component('Multiselect', VueMultiselect.default);
 
                         if(response){
 
-                                notify('success');
+
                         }
                     }
                 );
