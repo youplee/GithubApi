@@ -71,7 +71,6 @@
 </div>
 <!-- ./wrapper -->
 <!-- global js -->
-<div id="qn"></div>
 
 
 @yield('modals')

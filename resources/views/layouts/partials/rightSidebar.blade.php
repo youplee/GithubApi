@@ -423,4 +423,3 @@
         </div>
     </div>
 </div>
-<div class="background-overlay"></div>
