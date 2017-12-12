@@ -17,7 +17,7 @@ Route::get('/', 'HomeController@index');
 Auth::routes();
 
 
-Route::group([ 'middleware' => ['verify']], function () {
+Route::group([ 'middleware' => ['auth']], function () {
     //traitement page d acceuil
     Route::get('/home', 'HomeController@index');
     // traitement recherche github api
@@ -42,7 +42,7 @@ Route::group([ 'middleware' => ['verify']], function () {
 
 Route::get('/logout','Auth\LoginController@logout');
 
-Route::group([ 'middleware' => ['verifyLogin']], function () {
+Route::group([ 'middleware' => ['web']], function () {
     
     //  Route::post('/login','auth\AuthController@login');
      Route::post('/login','Auth\LoginController@connexion');
